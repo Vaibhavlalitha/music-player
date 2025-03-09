@@ -1,0 +1,95 @@
+/* Sidebar Styling */
+.sidebar {
+  background: #1f1f1f;
+  color: white;
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  padding-top: 20px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  transition: background 0.3s ease-in-out;
+}
+
+.sidebar a:hover {
+  background: #333;
+  border-radius: 8px;
+}
+
+/* Content Section */
+.content {
+  margin-left: 220px;
+  padding: 20px;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+/* Vertical Line Separator */
+.vl {
+  border-left: 3px solid rgb(74, 73, 73);
+  height: 700px;
+  position: absolute;
+  left: 106%;
+  top: 0;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1000;
+    padding-top: 15px;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .sidebar.show {
+    left: 0;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+
+  .vl {
+    display: none;
+  }
+
+  /* Toggle Button */
+  .menu-toggle {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #FFD700;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+  }
+
+  .menu-toggle:hover {
+    background: #FFA500;
+  }
+}

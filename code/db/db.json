@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "LEO",
+      "singer": "ANIRUDH RAVICHANDRAN",
+      "genre": "MELODY",
+      "imgUrl": "https://i.pinimg.com/736x/5c/51/74/5c517487341204d26ed188ab65a8abab.jpg",
+      "songUrl": "Songs/leo.mp3"
+    },
+    {
+      "id": 2,
+      "title": "TV OFF!",
+      "singer": "KENDRICK LAMAR",
+      "genre": "Emotional",
+      "imgUrl": "https://i.pinimg.com/736x/b1/99/da/b199daefe9936e9f7795fa6c2d221b82.jpg",
+      "songUrl": "Songs/gnx.mp3"
+    },
+    {
+      "id": 3,
+      "title": "KADHALUM KADHANDHU POGUM",
+      "singer": "SANA",
+      "genre": "FOLK",
+      "imgUrl": "https://i.pinimg.com/474x/42/90/8f/42908fdea31682c5a44eafe580bc39b7.jpg",
+      "songUrl": "Songs/kakakapo.mp3"
+    },
+    {
+      "id": 4,
+      "title": "SUNDHARI KANNAL",
+      "singer": "SPB",
+      "genre": "Emotional",
+      "imgUrl": "https://i.pinimg.com/236x/26/a8/12/26a812c94fc3a7fa797571471381e66d.jpg",
+      "songUrl": "Songs/Sundhari kannal.mp3"
+    },
+    {
+      "id": 5,
+      "title": "KADHALIKADHEY",
+      "singer": "teejay",
+      "genre": "Emotional",
+      "imgUrl": "https://i.pinimg.com/236x/11/54/f3/1154f3ac225d4c47e568d09fd9faaf81.jpg",
+      "songUrl": "Songs/kadhalikadhey.mp3"
+    },
+    {
+      "id": 6,
+      "title": "PUDICHI ERUKA ILLA PUDIKALAIYA",
+      "singer": "HIPHOP THAMIZHA",
+      "genre": "Emotional",
+      "imgUrl": "https://i.pinimg.com/474x/b0/47/46/b047462e9c50afa799871b43ee93fdcf.jpg",
+      "songUrl": "Songs/pudichi eruka.mp3"
+    },
+    {
+      "id": 7,
+      "title": "FE!N",
+      "singer": "TRAVIS SCOTT",
+      "genre": "GYM",
+      "imgUrl": "https://i.pinimg.com/236x/02/19/5d/02195da58a873fe8c346930d97535fca.jpg",
+      "songUrl": "Songs/FEIN.mp3"
+    }
+  ],
+  "favorities": [
+    {
+      "title": "SUNDHARI KANNAL",
+      "singer": "SPB",
+      "genre": "Emotional",
+      "imgUrl": "https://i.pinimg.com/236x/7d/1c/8c/7d1c8c2c7c140d73db76c146ac61aa3c.jpg",
+      "songUrl": "Songs/Sundhari kannal.mp3",
+      "id": 4
+    },
+    {
+      "itemId": 1,
+      "title": "LEO",
+      "imgUrl": "https://i.pinimg.com/736x/5c/51/74/5c517487341204d26ed188ab65a8abab.jpg",
+      "genre": "MELODY",
+      "songUrl": "Songs/leo.mp3",
+      "singer": "ANIRUDH RAVICHANDRAN",
+      "id": 5
+    }
+  ],
+  "playlist": [
+    {
+      "itemId": 6,
+      "id": 6,
+      "title": "PUDICHI ERUKA ILLA PUDIKALAIYA",
+      "singer": "HIPHOP THAMIZHA",
+      "genre": "Emotional",
+      "imgUrl": "https://i.pinimg.com/474x/b0/47/46/b047462e9c50afa799871b43ee93fdcf.jpg",
+      "songUrl": "Songs/pudichi eruka.mp3"
+    },
+    {
+      "itemId": 4,
+      "id": 7,
+      "title": "TV OFF!",
+      "singer": "KENDRICK LAMAR",
+      "genre": "Emotional",
+      "imgUrl": "https://i.pinimg.com/736x/b1/99/da/b199daefe9936e9f7795fa6c2d221b82.jpg",
+      "songUrl": "Songs/gnx.mp3"
+    },
+    {
+      "itemId": 2,
+      "id": 2,
+      "title": "FE!N",
+      "singer": "TRAVIS SCOTT",
+      "genre": "GYM",
+      "imgUrl": "https://i.pinimg.com/236x/02/19/5d/02195da58a873fe8c346930d97535fca.jpg",
+      "songUrl": "Songs/FEIN.mp3"
+    }
+  ]
+}
